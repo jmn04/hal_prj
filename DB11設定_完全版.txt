@@ -1,1 +1,38 @@
-DBÝ’è‹¤’Ê@Xammp‚Ü‚½‚ÍMAMP‚ÅƒT[ƒo[‹N“®Xammp‚È‚çApache‹N“®ŒãAMariaDB(Mysql)‹N“®MAMP‚ÍƒXƒ^[ƒgƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚¾‚¯WindowsC : \Users\user> cd C:\Users\user\xammp\mysql\binmysql -u root -pPassword : ‰½‚à“ü—Í‚µ‚È‚¢MACcd /Applications/MAMP/Library/bin./mysql -u root -pPassword : rootSQLƒtƒ@ƒCƒ‹”z•z‚Åxammpp\mysql(\bin)\data‚Ü‚½‚ÍMAMP/Library/bin‚Éƒtƒ@ƒCƒ‹•Û‘¶BMysql>source sqlƒtƒ@ƒCƒ‹–¼;  ƒf[ƒ^ƒx[ƒX‚Ì¶¬Mysql>use DataBase_Name;  ƒf[ƒ^ƒx[ƒX‚Ì—LŒø‰»iDB‚Ì—˜—pjMysql>select * from Table_Name;iƒe[ƒuƒ‹‘S‘Ì‚Ì•\Ž¦jMysql>show databases;iDBˆê——jMysql>show tables;iŒ»ÝŽg—p‚µ‚Ä‚¢‚éDB‚Ìƒe[ƒuƒ‹‚ð•\Ž¦jMysql>select database();iŒ»Ý‘I‘ð‚µ‚Ä‚¢‚éƒf[ƒ^ƒx[ƒX‚ð•\Ž¦jMysql>desc Table_Name;@ƒe[ƒuƒ‹\‘¢‚ÌŠm”Fƒ^ƒCƒvƒ~ƒX‚Åu->v‚ªo‚½ê‡A;iƒZƒ~ƒRƒƒ“j‚ð“ü—Í‚·‚é‚±‚Æmysql>  exit@I—¹‚³‚¹‚éWindows:•¶Žš‰»‚¯‚ª‹N‚±‚éê‡VS code‚É‚ÄƒGƒ“ƒR[ƒh‚ðUTF-8‚©‚çShift-JIS‚É•ÏXXammp‚Ü‚½‚ÍMAMP‚ÌƒT[ƒo[’âŽ~AI—¹
+DBè¨­å®š
+å…±é€šã€€Xammpã¾ãŸã¯MAMPã§ã‚µãƒ¼ãƒãƒ¼èµ·å‹•
+Xammpãªã‚‰Apacheèµ·å‹•å¾Œã€MariaDB(Mysql)èµ·å‹•
+MAMPã¯ã‚¹ã‚¿ãƒ¼ãƒˆãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã ã‘
+
+Windows
+C : \Users\user> cd C:\Users\user\xammp\mysql\bin
+mysql -u root -p
+Password : ä½•ã‚‚å…¥åŠ›ã—ãªã„
+
+MAC
+cd /Applications/MAMP/Library/bin
+./mysql -u root -p
+Password : root
+
+SQLãƒ•ã‚¡ã‚¤ãƒ«é…å¸ƒã§xammpp\mysql(\bin)\dataã¾ãŸã¯MAMP/Library/binã«ãƒ•ã‚¡ã‚¤ãƒ«ä¿å­˜ã€‚
+
+Mysql>source sqlãƒ•ã‚¡ã‚¤ãƒ«å;  ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®ç”Ÿæˆ
+
+Mysql>use DataBase_Name;  ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®æœ‰åŠ¹åŒ–ï¼ˆDBã®åˆ©ç”¨ï¼‰
+
+Mysql>select * from Table_Name;ï¼ˆãƒ†ãƒ¼ãƒ–ãƒ«å…¨ä½“ã®è¡¨ç¤ºï¼‰
+
+Mysql>show databases;ï¼ˆDBä¸€è¦§ï¼‰
+
+Mysql>show tables;ï¼ˆç¾åœ¨ä½¿ç”¨ã—ã¦ã„ã‚‹DBã®ãƒ†ãƒ¼ãƒ–ãƒ«ã‚’è¡¨ç¤ºï¼‰
+
+Mysql>select database();ï¼ˆç¾åœ¨é¸æŠžã—ã¦ã„ã‚‹ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã‚’è¡¨ç¤ºï¼‰
+
+Mysql>desc Table_Name;ã€€ãƒ†ãƒ¼ãƒ–ãƒ«æ§‹é€ ã®ç¢ºèª
+
+ã‚¿ã‚¤ãƒ—ãƒŸã‚¹ã§ã€Œ->ã€ãŒå‡ºãŸå ´åˆã€;ï¼ˆã‚»ãƒŸã‚³ãƒ­ãƒ³ï¼‰ã‚’å…¥åŠ›ã™ã‚‹ã“ã¨
+mysql>  exitã€€çµ‚äº†ã•ã›ã‚‹
+
+Windows:æ–‡å­—åŒ–ã‘ãŒèµ·ã“ã‚‹å ´åˆ
+VS codeã«ã¦ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã‚’UTF-8ã‹ã‚‰Shift-JISã«å¤‰æ›´
+
+Xammpã¾ãŸã¯MAMPã®ã‚µãƒ¼ãƒãƒ¼åœæ­¢ã€çµ‚äº†
